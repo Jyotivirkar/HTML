@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" Dir="ltr">
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+<h1>puppy adoption page</h1>
+<h2>please enter information:</h2>
+
+<form method="get">
+
+<label for="first">first name:</label>
+<input id="first" type="text" Name="" Placeholder="first name">
+
+<label for="last">last name:</label>
+<input id="last" type="text" Name="" Placeholder="last name">
+<br>
+<label for="email">email id:</label>
+<input id ="email" type="text" Name="" Placeholder="email@email.com">
+
+<label for="pass">password:</label>
+<input id="pass" type="text" Name="" Value="">
+
+<p>Are you over 18? </p>
+<label for="yes">yes:</label>
+<input type="radio" Name="over18" Value="yesOver">
+
+<label for="No">No:</label>
+<input type="radio" Name="over18" Value="NoOver">
+
+<p>Do you have cc or paypal?</p>
+<select name="payment">
+<option value="cc">credit card</option>
+<option value="pp">paypal</option>
+</select>
+<input type="submit" Name="" Value="submit">
+</form>
+</body>
+</html>
